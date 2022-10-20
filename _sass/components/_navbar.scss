@@ -6,7 +6,7 @@
     right: 0;
     padding: 13px;
     text-transform: uppercase;
-    color: #eeeeee;
+    color: #6d6464;
     border: 0;
     background-color: $primary;
     @include heading-font;
@@ -28,12 +28,11 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: #eeeeee;
+        color: #6d6464;
         @include heading-font;
         &.active,
         &:hover {
-          color: brighten($primary, 12%);
-          /*color: $primary;*/
+          color: $primary;
         }
       }
     }
@@ -62,9 +61,9 @@
       }
     }
     &.navbar-shrink {
-      padding-top: 3dp;
-      padding-bottom: 3dp;
-      background-color: #eaeaea;
+      padding-top: 0;
+      padding-bottom: 0;
+      background-color: #6d6464;
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
