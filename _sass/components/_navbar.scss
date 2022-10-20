@@ -1,6 +1,6 @@
 // Styling for the navbar
 #mainNav {
-  background-color: #6d6464; /*移动端顶栏*/
+  background-color: #eeeeee; /*移动端顶栏*/
   .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -28,7 +28,7 @@
         font-weight: 400;
         padding: 0.75em 0;
         letter-spacing: 1px;
-        color: #b9afaf;  /*菜单文本按钮颜色*/
+        color: #565050;  /*菜单文本按钮颜色*/
         @include heading-font;
         &.active,
         &:hover {
@@ -63,7 +63,7 @@
     &.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #6d6464; /*桌面端顶栏*/
+      background-color: #ececec; /*桌面端顶栏*/
       .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0;
