@@ -11,8 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: HelloWorld!
-    text: LiAPPS
+    title: 精益求精 无尽创新
+    text: Infinity<br>Imaginaion
     button: Start
     buttonlink: "#services"
 
