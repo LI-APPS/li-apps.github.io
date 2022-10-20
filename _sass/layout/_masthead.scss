@@ -18,8 +18,8 @@ header.masthead {
     }
     .intro-heading {
       font-size: 39px;
-      font-weight: 500;
-      line-height: 39px;
+      font-weight: 600;
+      line-height: 19px;
       margin-bottom: 15px;
       @include heading-font;
     }
@@ -32,7 +32,7 @@ header.masthead {
       padding-bottom: 210px;
       .intro-lead-in {
         font-size: 39px;
-        line-height: 39px;
+        line-height: 19px;
         margin-bottom: 15px;
         @include serif-font;
       }
