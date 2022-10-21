@@ -3,13 +3,13 @@
   .portfolio-item {
     right: 0;
     margin: 0 0 15px;
-    border-radius: 6px;
     .portfolio-link {
       position: relative;
       display: block;
-      max-width: 400px;
+      max-width: 615px;
       margin: 0 auto;
       cursor: pointer;
+      border-radius: 6px;
       .portfolio-hover {
         position: absolute;
         width: 100%;
@@ -18,7 +18,7 @@
         -moz-transition: all ease 0.35s;
         transition: all ease 0.35s;
         opacity: 0;
-        background: fade-out(#000000, 0.85);
+        background: fade-out(#000000, 0.7);
         &:hover {
           opacity: 1;
         }
@@ -42,19 +42,18 @@
       }
     }
     .portfolio-caption {
-      max-width: 400px;
+      max-width: 615px;
       margin: 0 auto;
       padding: 25px;
       text-align: Left;
       /*background-color: $white*/;
       h4 {
-        margin-left: 30dp;
-        margin-top: -120dp;
+        margin-left: 1dp;
         text-transform: none;
       }
       p {
         font-size: 16px;
-        margin-left: 30dp;
+        margin-left: 1dp;
         @include serif-font;
       }
     }
