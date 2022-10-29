@@ -68,15 +68,15 @@
 
 .portfolio-modal {
   .modal-dialog {
-    margin: 12rem -2rem -1rem -1rem;
+    margin: 15rem -2rem -1rem -1rem;
     max-width: 900vw;
   }
   .modal-content {
     padding: 100px 10px;
     text-align: left;
     h2 {
-      font-size: 3.2em;
-      margin: 75px 0 0 0;
+      font-size: 2.7em;
+      margin: 30px 0 0 0;
     }
     p {
       margin-bottom: 30px;
@@ -95,7 +95,7 @@
     }
     button {
       cursor: pointer;
-      margin: 30px 0 60px;
+      margin: 30px 0 50px;
     }
   }
   .close-modal {
@@ -137,20 +137,32 @@
   }
 }
 
+
 @media (min-width: 767px) {
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
-      min-width: 600px;
+      min-width: 450px;
       max-width: 700px;
-    }
-    .portfolio-modal {
-      .modal-dialog {
-        margin: 3rem -16rem -1rem -15rem;
-        max-width: 900vw;
+     
+      .portfolio-link {
+        max-width: 700px;
       }
-      .modal-content {
-        padding: 100p 0;
+     .portfolio-caption {
+        max-width: 700px;
+      }
+    }
+  }
+  
+  .portfolio-modal {
+    .modal-dialog {
+      margin: 3rem -16rem -1rem -15rem;
+    }
+    .modal-content {
+      padding: 100p 0;
+      h2 {
+        font-size: 3.2em;
+        margin: 90px 0 0 0;
       }
     }
   }
