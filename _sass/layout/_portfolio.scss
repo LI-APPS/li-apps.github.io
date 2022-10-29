@@ -73,18 +73,18 @@
 
 .portfolio-modal {
   .modal-dialog {
-    margin: 0rem;
-    max-width: 200vw;
+    margin: -2rem;
+    max-width: 900vw;
   }
   .modal-content {
-    padding: 100px -30px 500px -30px;
+    padding: 100px 0px;
     text-align: left;
     img {
       margin-bottom: 30px;
     }
     h2 {
       font-size: 3.5em;
-      margin-bottom: 15px;
+      margin: 100px 10px 0 0;
     }
     p {
       margin-bottom: 30px;
@@ -135,7 +135,7 @@
         -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
-        background-color: $gray-900;
+        background-color: #ffffff;
       }
     }
   }
