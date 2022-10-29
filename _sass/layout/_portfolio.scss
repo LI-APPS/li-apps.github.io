@@ -61,38 +61,33 @@
     z-index: 2;
   }
 }
-@media (min-width: 767px) {
-  #portfolio {
-    .portfolio-item {
-      margin: 0 0 30px;
-    }
-  }
-}
+
+
 
 
 
 .portfolio-modal {
   .modal-dialog {
-    margin: -2rem;
+    margin: 5rem -1rem -2rem;
     max-width: 900vw;
   }
   .modal-content {
-    padding: 100px 0px;
+    padding: 100px 20px;
     text-align: left;
-    img {
-      margin-bottom: 30px;
-    }
     h2 {
-      font-size: 3.5em;
-      margin: 100px 10px 0 0;
+      font-size: 3.2em;
+      margin: 75px 0 0 0;
     }
     p {
       margin-bottom: 30px;
     }
     p.item-intro {
       font-size: 19px;
-      margin: 20px 0 30px;
+      margin: 15px 0 35px;
       @include serif-font;
+    }
+    img {
+      margin-bottom: 30px;
     }
     ul.list-inline {
       margin-top: 0;
@@ -100,14 +95,15 @@
     }
     button {
       cursor: pointer;
+      margin: 30px 0 120px;
     }
   }
   .close-modal {
     position: absolute;
     top: 25px;
     right: 25px;
-    width: 35px;
-    height: 35px;
+    width: 75px;
+    height: 75px;
     cursor: pointer;
     background-color: transparent;
     &:hover {
@@ -136,6 +132,19 @@
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
         background-color: #ffffff;
+      }
+    }
+  }
+}
+
+@media (min-width: 767px) {
+  #portfolio {
+    .portfolio-item {
+      margin: 0 0 30px;
+    }
+    .portfolio-modal {
+      .modal-content {
+        margin: 0 ;
       }
     }
   }
