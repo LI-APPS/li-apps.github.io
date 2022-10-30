@@ -6,6 +6,7 @@
     min-height: 300px;
     max-width: 400px;
     margin: 0 0 15px;
+    align-content: center;
     
     .portfolio-link {
       position: relative;
@@ -48,19 +49,17 @@
     .portfolio-caption {
       max-width: 400px;
       margin: 0 auto;
-      padding: 5px 0; /*19px 25px 19px 25px ; 1dp*/
+      padding: 5px 15px 0 25px; /*1dp*/
       text-align: center;
       /*background-color: $white;*/
       h4 {
         margin-left: 1dp;
-        font-size: 1px;
+        font-size: 2px;
         text-transform: none;
-        text-color: #ffffff;
       }
       p {
         font-size: 1px; /*16px*/
         margin-left: 1dp;
-        text-color: #ffffff;
         @include serif-font;
       }
     }
