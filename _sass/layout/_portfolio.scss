@@ -21,7 +21,7 @@
         -moz-transition: all ease 0.15s;
         transition: all ease 0.15s;
         opacity: 0;
-        background: fade-out(#ffffff, 0.6);
+        background: fade-out(#ffffff, 0.65);
         &:hover {
           opacity: 1;
           width: 100%;
@@ -48,16 +48,19 @@
     .portfolio-caption {
       max-width: 400px;
       margin: 0 auto;
-      padding: 19px 25px 19px 25px;
-      text-align: Left;
-      /*background-color: $white*/;
+      padding: 5px 0; /*19px 25px 19px 25px ; 1dp*/
+      text-align: center;
+      /*background-color: $white;*/
       h4 {
         margin-left: 1dp;
+        font-size: 1px;
         text-transform: none;
+        text-color: #ffffff;
       }
       p {
-        font-size: 16px;
+        font-size: 1px; /*16px*/
         margin-left: 1dp;
+        text-color: #ffffff;
         @include serif-font;
       }
     }
@@ -147,20 +150,20 @@
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
-      min-width: 555px;
+      min-width: 560px;
       min-height: 384px;
       max-width: 600px;
       
       .portfolio-link {
         max-width: 600px;
         .portfolio-hover {
-          width: 85%;
+          width: 87%;
           -webkit-transition: all ease 0.35s;
           -moz-transition: all ease 0.35s;
           transition: all ease 0.35s;
         }
       }
-     .portfolio-caption {
+      .portfolio-caption {
         max-width: 600px;
       }
     }
