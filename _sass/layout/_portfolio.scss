@@ -7,11 +7,11 @@
       position: relative;
       display: block;
       max-width: 400px;
-      margin: 0 auto;
+      margin: 0 -100px;
       cursor: pointer;
       .portfolio-hover {
         position: absolute;
-        width: 60%;
+        width: 80%;
         height: 100%;
         -webkit-transition: all ease 0.3s;
         -moz-transition: all ease 0.3s;
