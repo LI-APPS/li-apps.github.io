@@ -11,15 +11,16 @@
       cursor: pointer;
       .portfolio-hover {
         position: absolute;
-        width: 100%;
+        width: 60%;
         height: 100%;
-        -webkit-transition: all ease 0.35s;
-        -moz-transition: all ease 0.35s;
-        transition: all ease 0.35s;
+        -webkit-transition: all ease 0.3s;
+        -moz-transition: all ease 0.3s;
+        transition: all ease 0.3s;
         opacity: 0;
-        background: fade-out(#000000, 0.7);
+        background: fade-out(#ffffff, 0.65);
         &:hover {
           opacity: 1;
+          width: 100%;
         }
         .portfolio-hover-content {
           font-size: 10px;
@@ -72,7 +73,7 @@
     max-width: 900vw;
   }
   .modal-content {
-    padding: 100px 10px;
+    padding: 20px 10px;
     text-align: left;
     h2 {
       font-size: 2.7em;
@@ -143,13 +144,13 @@
     .portfolio-item {
       margin: 0 0 30px;
       min-width: 450px;
-      max-width: 700px;
+      max-width: 600px;
      
       .portfolio-link {
-        max-width: 700px;
+        max-width: 600px;
       }
      .portfolio-caption {
-        max-width: 700px;
+        max-width: 600px;
       }
     }
   }
