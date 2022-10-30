@@ -147,12 +147,12 @@
   #portfolio {
     .portfolio-item {
       margin: 0 0 30px;
-      min-width: 575px;
+      min-width: 555px;
       min-height: 384px;
-      max-width: 615px;
+      max-width: 600px;
       
       .portfolio-link {
-        max-width: 615px;
+        max-width: 600px;
         .portfolio-hover {
           width: 85%;
           -webkit-transition: all ease 0.35s;
@@ -161,7 +161,7 @@
         }
       }
      .portfolio-caption {
-        max-width: 615px;
+        max-width: 600px;
       }
     }
   }
