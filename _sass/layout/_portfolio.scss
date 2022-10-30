@@ -7,7 +7,7 @@
       position: relative;
       display: block;
       max-width: 400px;
-      margin: -100px auto;
+      margin: 0 auto;
       cursor: pointer;
       .portfolio-hover {
         position: absolute;
@@ -17,7 +17,7 @@
         -moz-transition: all ease 0.3s;
         transition: all ease 0.3s;
         opacity: 0;
-        background: fade-out(#ffffff, 0.65);
+        background: fade-out(#ffffff, 0.6);
         &:hover {
           opacity: 1;
           width: 100%;
