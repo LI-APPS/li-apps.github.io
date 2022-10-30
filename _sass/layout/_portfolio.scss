@@ -47,19 +47,24 @@
       }
     }
     .portfolio-caption {
+      animation-duration: 9s;
+      animation-name: slidein;
+      
       max-width: 400px;
       margin: 0 auto;
       padding: 5px 15px 0 25px; /*1dp*/
-      text-align: center;
+      text-align: left;
       /*background-color: $white;*/
       h4 {
-        margin-left: 1dp;
+        margin-left: 8dp;
         font-size: 2px;
         text-transform: none;
+        color: rgba(0.6,0.6,0.6,1);
       }
       p {
-        font-size: 1px; /*16px*/
-        margin-left: 1dp;
+        font-size: 8px; /*16px*/
+        margin-top: -8px;
+        color: rgba(0,0,0,0);
         @include serif-font;
       }
     }
@@ -179,5 +184,18 @@
         margin: 90px 0 0 0;
       }
     }
+  }
+}
+
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
   }
 }
