@@ -2,7 +2,11 @@
 #portfolio {
   .portfolio-item {
     right: 0;
+    min-width: 450px;
+    min-height: 384px;
+    max-width: 615px;
     margin: 0 0 15px;
+    
     .portfolio-link {
       position: relative;
       display: block;
@@ -149,8 +153,6 @@
       
       .portfolio-link {
         max-width: 615px;
-        min-width: 450px;
-        min-height: 384px;
         .portfolio-hover {
           width: 85%;
           -webkit-transition: all ease 0.35s;
