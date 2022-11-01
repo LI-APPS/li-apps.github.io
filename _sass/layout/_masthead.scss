@@ -11,12 +11,16 @@ header.masthead {
     padding-top: 290px;
     padding-bottom: 90px;
     .intro-lead-in {
+      animation-duration: 0.5s;
+      animation-name: slidein1;
       font-size: 21px;
       line-height: 21px;
       margin-bottom: 15px;
       @include serif-font;
     }
     .intro-heading {
+      animation-duration: 0.7s;
+      animation-name: slidein1;
       font-size: 39px;
       font-weight: 600;
       line-height: 39px;
@@ -44,5 +48,19 @@ header.masthead {
         @include heading-font;
       }
     }
+  }
+}
+
+@keyframes slidein1 {
+  from {
+    margin-height: 30%;
+    width: 100%;
+    color: rgba(1,1,1,0);
+  }
+
+  to {
+    margin-height: 0%;
+    width: 100%;
+    color: rgba(1,1,1,1);
   }
 }
