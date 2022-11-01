@@ -53,14 +53,14 @@ header.masthead {
 
 @keyframes slidein1 {
   from {
-    margin-height: 30%;
+    margin-bottom: 150px;
     width: 100%;
-    color: rgba(1,1,1,0);
+    color: rgba(255,255,255,0);
   }
 
   to {
-    margin-height: 0%;
+    margin-bottom: 15px;
     width: 100%;
-    color: rgba(1,1,1,1);
+    color: rgba(255,255,255,255);
   }
 }
